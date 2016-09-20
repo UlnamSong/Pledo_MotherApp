@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/video_layout"
+    android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/activity_no_image"
+         />
+       		
+    <WebView
+   		android:id="@+id/hint_popwebview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         />
+
+	<VideoView
+		android:id="@+id/hint_popvideoview"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		/>
+
+  	
+</FrameLayout>
+

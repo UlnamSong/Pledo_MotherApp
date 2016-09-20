@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PLEDO MOM</string>
+    <string name="facebook_app_id">244203355933176</string>
+    <string name="activity_no_image">No Image</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="registering_message_ready">InstanceID 토큰 가져오기</string>
+    <string name="registering_message_generating">InstanceID 토큰 생성중...</string>
+    <string name="registering_message_complete">완료!</string>
+
+    <!-- server URL>
+    <string name="serverUrl">http://203.253.21.146</string>
+    <string-- name="loadUrl">http://203.253.21.146/appnew/login/login_type.html</string-->
+    <string name="serverUrl">http://103.60.126.195/</string>
+    <string name="loadUrl">http://103.60.126.195/appnew/login/login_type.html</string>
+</resources>

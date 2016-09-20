@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "873899372234",
+    "project_id": "pledomom"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873899372234:android:969df22011e99ea8",
+        "android_client_info": {
+          "package_name": "com.pledo.prj_pledomom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-4u5bwa3CrUqtA5myu71tK-8tcU_woMk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

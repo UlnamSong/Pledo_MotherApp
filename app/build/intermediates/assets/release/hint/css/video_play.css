@@ -1,0 +1,16 @@
+#video-play-page {
+  text-align: center;
+}
+#end-video {
+  border: none;
+  padding: 25px;
+  background: #2D87D7;
+  font-size: 5em;
+  color: white;
+  width: auto;
+  overflow: visible;
+  border-radius: 20px;
+  font-weight: bolder;
+  outline-style: none;
+  display: none;
+}

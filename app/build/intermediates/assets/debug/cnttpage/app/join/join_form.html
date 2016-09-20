@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+    <title>프레도</title>
+
+    <link href="../css/common.css" rel="stylesheet" media="all">
+    <link href="../css/login.css" rel="stylesheet" media="all">
+</head>
+<body>
+
+<div id="wrap">
+
+    <header>
+        <h1>
+            <a href="#none" class="hBtn back">이전</a>
+            <span class="logoTit">회원가입</span>
+            <a href="#none" class="hBtn close">닫기</a>
+        </h1>
+    </header>
+
+    <section class="join">
+        <div class="join-step-wrap">
+            <div class="join-step">
+                <span class="item step1">약관동의</span>
+                <span class="item seper"></span>
+                <span class="item step2">가입유형</span>
+                <span class="item seper"></span>
+                <span class="item step3 on">회원정보</span>
+            </div>
+        </div>
+
+        <div class="input-wrap">
+            <dl>
+                <dt><label for="userid">아이디</label></dt>
+                <dd class="input-n-btn">
+                    <input type="text" id="userid" placeholder="이메일 아이디를 입력하세요." />
+                    <span><a href="#none" class="btnGray">중복확인</a></span>
+                </dd>
+                <!--<dd class="desc">이메일 주소는 아이디로 사용됩니다.</dd>-->
+                <dd class="desc right">사용할 수 있는 아이디입니다.</dd>
+            </dl>
+            <dl>
+                <dt><label for="userid">비밀번호</label></dt>
+                <dd><input type="password" id="userid" placeholder="비밀번호를 입력하세요." /></dd>
+                <dd class="desc">4~8자 영문, 숫자만 가능</dd>
+                <!--<dd class="desc right">사용할 수 있는 비밀번호입니다.</dd>-->
+                <dd><input type="password" id="userid" placeholder="다시 한번 입력하세요." /></dd>
+                <dd class="desc bad">비밀번호가 서로 다릅니다.</dd>
+            </dl>
+            <dl>
+                <dt><label for="userid">닉네임</label></dt>
+                <dd class="input-n-btn">
+                    <input type="text" id="userid" placeholder="닉네임을 입력하세요." />
+                    <span><a href="#none" class="btnGray">중복확인</a></span>
+                </dd>
+                <dd class="desc">2~8자 한글만 가능</dd>
+            </dl>
+
+            <div class="btnWrap gap">
+                <a href="#none" class="em">가입요청</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--<object name="footer" type="text/html" data="common/footer.html"></object>-->
+
+</div>
+<!-- wrap -->
+
+</body>
+</html>

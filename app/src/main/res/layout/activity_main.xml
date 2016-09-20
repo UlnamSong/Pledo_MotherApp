@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.prj_webvw.MainActivity"
+    >
+
+    
+    
+   <WebView
+   		android:id="@+id/hint_popwebview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+         />
+ 
+   
+   
+    <!--   힌트 view   -->
+    <RelativeLayout
+        android:id="@+id/hint_pop"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+
+        android:gravity="center_horizontal" >
+
+        <!-- android:name="com.pledo.prj_pledomom.VideoFragment"
+	    <fragment android:id="@+id/hintfragment"
+            android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+            class ="com.pledo.prj_pledomom.VideoFragment"
+
+            />
+        -->
+
+
+        <WebView
+            android:id="@+id/popwebview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VIDEO Button"
+            android:id="@+id/btn_video"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Game Button"
+            android:id="@+id/btn_game"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+ 
+    
+    
+</RelativeLayout>

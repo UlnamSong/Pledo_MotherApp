@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+    useLibrary  'org.apache.http.legacy'
+
+    defaultConfig {
+        applicationId "com.pledo.prj_pledomom"
+        multiDexEnabled true
+        minSdkVersion 11
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+    }
+}
+
+dependencies {
+//    compile 'com.google.android.gms:play-services:6.5.87'     //  2016. 8. 7 duckbest:  이전에는 잘 되던 build가 안 되서, 이 line을 주석 처리 했더니 build 됐음...;   원인도, 부작용도 아직은 모르겠음.
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:support-v4:23.1.1'
+    compile 'com.mcxiaoke.volley:library:1.0.8'
+
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+//    compile files('libs/async-http-client-1.8.3.jar')
+    compile files('libs/slf4j-api-1.7.5.jar')
+}

@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+#wrap.login {background-image: url("../images/login/bg.jpg");background-size: 100%;background-position: 50% -6%;background-repeat:repeat;}
+
+/* 공통 */
+.loginPrd{position:relative;background:#fff;}
+.loginPrd .prdWrap{position:relative;border-bottom:1px solid #e6e7ec;padding:.8rem 1rem 1.6rem;}
+.loginPrd .prdWrap .prdTit{padding:52px 0 48px;font-size:1.8rem;line-height:2.5rem;text-align:center}
+.loginPrd .prdWrap span.logoImg{display:inline-block;width:11.8rem;height:1.8rem;background:url(/images//login/logo_onetv.png) no-repeat;background-size:100%;text-indent:-9999px;overflow:hidden}
+.loginPrd .prdWrap p{line-height:1.8rem;text-align:center}
+.loginPrd .prdWrap p.prdTxt1{font-size:1.4rem;margin-bottom:4.2rem}
+.loginPrd .prdWrap p.prdTxt2{font-size:1.2rem;margin-bottom:4.2rem}
+.loginPrd .prdWrap p.prdTxt3{font-size:1.1rem;color:#808492;}
+.loginPrd span.pointRed{color:#da2919}
+.loginPrd span.pointGray{color:#808492}
+.loginPrd .btnWrap{margin:.8rem 0}
+.loginmainWarp .prdWrap{padding-right:0;padding-left:0}
+.loginmainWarp .prdWrap .prdTit{padding-top:3.2rem;padding-bottom:.8rem}
+.loginmainWarp .prdWrap p{padding:0 1rem}
+.loginmainWarp .loginID{padding-right:0;padding-left:0}
+.loginmainWarp .loginID p.prdTxt{font-size:1.4rem;line-height:2.2rem}
+.loginconfWarp .loginPrd{padding-bottom:.7rem}
+
+/* 로그인 */
+.loginID{padding:0rem 4.2rem 2.0rem;background:none;}
+.loginID .prdTit{padding:13px 0 38px;font-size:1.8rem;line-height:2.74rem;text-align:center;font-weight:bold}
+.loginID p.prdTxt{padding:12px 0 16px;text-align:center;font-size:1.3rem}
+.loginID span.pointRed{color:#da2919}
+.loginID span.logoImg{display:inline-block;width:6rem;height:2.2rem;background:url(/images//login/logo_.png) no-repeat;background-size:100%;text-indent:-9999px;overflow:hidden}
+.loginWarp .loginID span.logoImg {background:url(/images//login/logo__b.png) no-repeat;background-size:100%;width:7.5rem;height:2.7rem;vertical-align:middle;position: relative;top: -2px;}
+.loginID span{vertical-align:top}
+
+
+/* 아이디 로그인 */
+.loginID .logo {text-align:center;padding-top: 7.5rem;}
+.loginID .logo img {width:20rem;}
+.loginID .formWrap{margin-bottom:16px}
+/*.loginID .formWrap:nth-child(3){margin-bottom:20px;}*/
+/*.loginID .formWrap:nth-child(3){margin-bottom:-5px;}*/
+.loginID .formWrap li {position:relative;}
+.loginID .formWrap .id {margin-bottom:-1px;}
+.loginID .formWrap .id.hover {z-index:10;}
+.loginID .formWrap .id input {border-bottom-left-radius:0;border-bottom-right-radius:0;text-indent:35px;}
+.loginID .formWrap .pw input {border-top-left-radius:0;border-top-right-radius:0;text-indent:35px;}
+.loginID .formWrap > span{display:table-cell;padding-right:10px}
+.loginID .formWrap.btmPrd{padding-top:20px;text-align:center;font-size:1.3em;color: #7f8c8d;font-weight: bold;}
+.loginID .formWrap.btmPrd a{color:#808492;padding:0 7px}
+.loginID .btnWrap > span{display:table-cell;width:8px}
+.loginID .formWrap .pop_catpcha{position:relative;display:table;margin-top:-.7rem;}
+
+.ic-input {display: inline-block;width:20px;height:20px;background:url(../images/login/ic_input.png) no-repeat;background-size: 20px;position: absolute;top: 10px;left: 16px;}
+.ic-input.ic-pw {background-position-y:-20px;}
+
+
+.loginID .btnWrap {padding:0;border-spacing:0;}
+.loginID .movie {position:relative;}
+.loginID .movie p {position:absolute;color: #fff;opacity: .7;top: 11px;left: 11px;font-size: 1.4rem;}
+.loginID .movie p span {font-size: 1.0rem;vertical-align:inherit;}
+
+.pop_catpcha .c1{display:table-cell;width:57%}
+.pop_catpcha .c2{display:table-cell;padding-left:.8rem;}
+.pop_catpcha .c2 input{margin-top:.8rem;}
+.pop_catpcha button{font-family:inherit}
+

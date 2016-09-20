@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+    <title>프레도</title>
+
+    <script type="text/javascript" src="../lib/jquery/jquery-1.12.1.min.js"></script>
+
+    <link href="../css/common.css" rel="stylesheet" media="all">
+    <link href="../css/login.css" rel="stylesheet" media="all">
+
+    <script>
+        $(function(){
+            $('.id input').focusin(function(){
+                        $(this).parent().addClass('hover');
+                    }
+            );
+            $('.id input').focusout(function(){
+                        $(this).parent().removeClass('hover');
+                    }
+            );
+
+            $('#loginBtn').click(function(){
+                var userid = $('#userid');
+                var password = $('#password');
+
+//                console.log('userid.val()', userid.val());
+//                console.log('password.val()', password.val());
+
+                if(userid.val() == ''){
+                    userid.focus();
+                    return;
+                }
+                if(password.val() == ''){
+                    password.focus();
+                }
+            });
+        });
+    </script>
+
+</head>
+<body ng-app="login" ng-controller="LoginController as loginCtrl">
+
+<div id="wrap" class="login">
+
+    <!--로그인 페이지-->
+    <section class="loginWarp">
+        <!--롯데아이몰 아이디 로그인-->
+        <div class="loginID">
+            <p class="logo"><img src="../images/login/logo_pledo.png"></p>
+            <p class="prdTit">
+                프레도 학습관리
+            </p>
+            <div class="formWrap">
+                <ul>
+                    <li class="id">
+                        <span class="ic-input ic-id"></span>
+                        <input type="text" id="userid" placeholder="이메일 아이디를 입력하세요." ng-model="loginCtrl.inputData.userid">
+                    </li>
+                    <li class="pw">
+                        <span class="ic-input ic-pw"></span>
+                        <input type="password" id="password" placeholder="비밀번호를 입력하세요." ng-model="loginCtrl.inputData.password">
+                    </li>
+                </ul>
+            </div>
+            <!--<div class="formWrap">
+				<span>
+					<input type="checkbox" id="ck1" name="exick">
+					<label for="ck1">
+                        <span class="icInput"></span>
+                        자동로그인
+                    </label>
+				</span><span>
+					<input type="checkbox" id="ck2" name="exick">
+					<label for="ck2">
+                        <span class="icInput"></span>
+                        아이디저장
+                    </label>
+				</span>
+            </div>-->
+
+            <div class="btnWrap">
+                <a href="" id="loginBtn" class="em" ng-click="loginCtrl.postForm();">로그인</a>
+            </div>
+            <div class="formWrap btmPrd">
+                <p>
+                    <a href="#none">아이디찾기</a>
+                    |
+                    <a href="#none">비밀번호 찾기</a>
+                    |
+                    <a href="stipulation.html">회원가입</a>
+                </p>
+            </div>
+
+            <div class="movie">
+                <p>프레도동영상 <span>프레도 소개 동영상입니다.</span></p>
+                <img src="../images/login/movie.jpg">
+            </div>
+        </div>
+
+    </section>
+
+</div>
+<!-- wrap -->
+
+
+<!-- angularjs 파일들 -->
+<script src="../lib/angular/angular.js"></script>
+<script src="../lib/angular/angular-route.js"></script>
+<script src="../lib/angular/angular-resource.js"></script>
+<script src="../app.js"></script>
+
+<script src="login.js"></script>
+
+</body>
+</html>

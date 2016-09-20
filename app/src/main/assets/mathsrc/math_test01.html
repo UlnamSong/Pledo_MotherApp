@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Math Formula</title>
+
+<link rel="stylesheet" href="../js/mathscribe/jqmath-0.4.3.css">
+<style>
+#solve {
+  float: left;
+  position: absolute;
+  border: 1px solid #666;
+ /*  background: transparent; */
+}
+#aBox {
+  display: none;
+  padding: 7px 0 7px 0;
+}
+#qBox {
+  padding: 7px 0 7px 0;
+}
+#qPosition01 {
+  padding: 0 5px 0 5px;
+}
+#questionArea, #checkButton {
+  text-align: center;
+}
+#questionArea {
+  width: 100%;
+  margin: 0 auto;
+}
+.inline_block {
+  display: inline-block;
+}
+</style>
+</head>
+<body>
+<div id='questionArea'>&nbsp;<br>
+<div class='inline_block'>$y = 3x \:+ $</div>
+<div class='inline_block' id='qPosition01' ans='[2/3]'>$2/3$</div>
+<div class='inline_block'>$ + \: 2y - 7z$</div>
+<br><br>
+<span id='incor_ans'></span>
+<input id='solve' type='text'>
+</div>
+
+
+
+<script src="../js/mathscribe/jquery-1.4.3.min.js"></script>
+<script src="../js/mathscribe/jqmath-etc-0.4.3.min.js"></script>
+<script src="../js/mathscribe/solve.js"></script>
+<script>
+M.MathPlayer = false;
+M.trustHtml = true;
+
+
+//solve();
+videoPlay();
+
+
+
+</script>
+</body>
+</html>

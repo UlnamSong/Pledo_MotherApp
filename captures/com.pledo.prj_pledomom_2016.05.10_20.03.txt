@@ -1,0 +1,59 @@
+TASK com.pledo.prj_pledomom id=308
+  ACTIVITY com.pledo.prj_pledomom/.MainActivity 20380b6 pid=3015
+    Local Activity 28a089f State:
+      mResumed=true mStopped=false mFinished=false
+      mChangingConfigurations=false
+      mCurrentConfig={0 1.0 themeSeq = 0 showBtnBg = 0 ?mcc?mnc ko_KR ldltr sw360dp w360dp h616dp 640dpi nrml long port finger -keyb/v/h -nav/h mkbd/h s.5}
+      overrideConfig={0 1.0 themeSeq = 0 showBtnBg = -1 ?mcc?mnc ?locale ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/? mkbd/?}
+      DisplayMetrics=DisplayMetrics{density=4.0, width=1440, height=2560, scaledDensity=4.0, xdpi=580.571, ydpi=580.571}
+      mMultiWindowStyle=MultiWindowStyle{type=0, zone=ZONE_UNKNOWN, option=0x00000000, bounds=null, isNull=false, isolatedCenterPoint=Point(0, 0), scale=0.0, specificTaskId=-1, or=1}
+      mLoadersStarted=true
+      Active Fragments in 7b9ef7b:
+        #0: HintFragment{544a198 #0 id=0x7f0d0052}
+          mFragmentId=#7f0d0052 mContainerId=#7f0d0051 mTag=null
+          mState=5 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+          mAdded=true mRemoving=false mResumed=true mFromLayout=true mInLayout=true
+          mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+          mRetainInstance=false mRetaining=false mUserVisibleHint=true
+          mFragmentManager=FragmentManager{7b9ef7b in HostCallbacks{b054df1}}
+          mHost=android.app.Activity$HostCallbacks@b054df1
+          mView=android.widget.FrameLayout{867cdd6 V.E...... ........ 0,0-1440,2464 #7f0d0052 app:id/hintfragment}
+          Child FragmentManager{e6e0857 in HintFragment{544a198}}:
+            FragmentManager misc state:
+              mHost=android.app.Activity$HostCallbacks@b054df1
+              mContainer=android.app.Fragment$1@5ae3f44
+              mParent=HintFragment{544a198 #0 id=0x7f0d0052}
+              mCurState=5 mStateSaved=false mDestroyed=false
+      Added Fragments:
+        #0: HintFragment{544a198 #0 id=0x7f0d0052}
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@b054df1
+        mContainer=android.app.Activity$HostCallbacks@b054df1
+        mCurState=5 mStateSaved=false mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=46231273 (103789 ms ago)
+    View Hierarchy:
+      com.android.internal.policy.PhoneWindow$DecorView{7eceffb V.E...... R....... 0,0-1440,2560}
+        android.widget.LinearLayout{50fd82d V.E...... ........ 0,0-1440,2560}
+          android.view.ViewStub{b6af162 G.E...... ......I. 0,0-0,0 #102046a android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{5e0d2f3 V.E...... ........ 0,96-1440,2560 #1020002 android:id/content}
+            android.widget.RelativeLayout{bf20bb0 V.E...... ........ 0,0-1440,2464}
+              android.webkit.WebView{fbeca29 VFEDHVC.. ........ 0,0-1440,2464 #7f0d0050 app:id/hint_popwebview}
+              android.widget.RelativeLayout{a8ac1ae V.E...... ........ 0,0-1440,2464 #7f0d0051 app:id/hint_pop}
+                android.widget.FrameLayout{867cdd6 V.E...... ........ 0,0-1440,2464 #7f0d0052 app:id/hintfragment}
+                  android.widget.ImageView{eabab4f V.ED..... ........ 0,0-1440,2464}
+                  android.webkit.WebView{b6432dc VFEDHVC.. .F...... 0,0-1440,2464 #7f0d0050 app:id/hint_popwebview}
+    Looper (main, tid 1) {922ebd0}
+      Message 0: { when=+1m9s384ms what=2 target=org.chromium.base.SystemMessageHandler }
+      (Total messages: 1, polling=false, quitting=false)

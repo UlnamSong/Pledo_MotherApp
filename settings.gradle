@@ -1,0 +1,2 @@
+include ':app', ':account-kit-sdk-4.11.0'
+include ':kakao_sdk'
